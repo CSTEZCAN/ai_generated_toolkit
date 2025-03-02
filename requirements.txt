@@ -1,0 +1,9 @@
+yt_dlp
+PyQt5
+requests
+BeautifulSoup
+numpy
+scipy
+matplotlib
+#notebook
+opencv-python
