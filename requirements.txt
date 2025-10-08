@@ -1,9 +1,9 @@
 yt_dlp
 PyQt5
 requests
-BeautifulSoup
-numpy
-scipy
-matplotlib
-#notebook
+BeautifulSoup4
+# Used in extract_different_frames_from_presentation_recordings.py
 opencv-python
+scikit-image
+# Used in pdf_reader.py
+PyMuPDF
