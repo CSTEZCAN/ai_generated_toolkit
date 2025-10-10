@@ -1,7 +1,3 @@
-#!/usr/bin/env python3
-# ytdl_gui.py  –  YouTube/Playlist/Channel downloader with per-playlist folders
-# Tested with yt-dlp 2025.03.31  +  Python 3.12
-
 import sys, os, re, json, time, threading, urllib.parse, requests
 from urllib.parse import urlparse, parse_qs
 import yt_dlp
