@@ -7,3 +7,5 @@ opencv-python
 scikit-image
 # Used in pdf_reader.py
 PyMuPDF
+pillow
+pillow-heif
