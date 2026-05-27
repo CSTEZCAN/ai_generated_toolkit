@@ -22,7 +22,7 @@ A collection of practical, efficient, and highly specialized automation scripts 
 | [📹 Presentation Frame Extractor](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/extract_different_frames_from_presentation_recordings.py) | Media Processing | SSIM-based unique slide/frame extraction from video |
 | [🔻 YT Downloader GUI](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/YT_Downloader_GUI.py) | Media & Web | High-quality YouTube video/audio ripping via `yt-dlp` |
 | [🕷️ YouTube Crawler](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/youtube_crawler.py) | Media & Web | Selenium-driven video URL metadata harvester |
-| [📖 PDF Reader](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/pdf_reader.py) | Accessibility | GUI-based PDF text-to-speech reader |
+| [📖 PDF Reader](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/pdf_reader.py) | Accessibility | Multi-threaded visual reader with UI themes & page extraction |
 
 ---
 
@@ -133,15 +133,15 @@ python youtube_crawler.py
 
 
 
-### 8. PDF Reader
+### 8. Advanced PDF Reader
 
 `pdf_reader.py`
-A simple desktop utility that reads your digital books and documents.
+A robust, highly interactive desktop PDF application designed for comfortable text-based reading.
 
-* **Features:** Simple PDF viewer tool, layout parsing to remove header/footer noise, simple visual reading progress tracking.
+* **Features:** Multi-threaded asynchronous document parsing using `PyPDF2`, customizable visual themes (Day, Night, Sepia, and Custom), dual-page or single-page viewing layouts, an interactive page navigation sidebar, and an integrated single-page text exporter.
 * **How to Use:**
 ```bash
-pip install pypdf pyttsx3 PyQt5
+pip install PyPDF2 PyQt5
 python pdf_reader.py
 
 ```
