@@ -15,14 +15,14 @@ A collection of practical, efficient, and highly specialized automation scripts 
 
 | Tool | Category | Key Feature |
 | --- | --- | --- |
-| [💾 SMR Safe Drive Cloner](https://www.google.com/search?q=%231-smr-safe-drive-cloner) | File Management | Dynamic SMR cache throttling & multi-threaded copy |
-| [🔄 Absolutely Free Sync](https://www.google.com/search?q=%232-absolutely-free-sync) | File Management | Multi-threaded local directory mirroring |
-| [⏱️ Speed Adjustable Copy](https://www.google.com/search?q=%233-speed-adjustable-copy) | File Management | Manual, slider-controlled I/O throttling |
-| [🖼️ HEIC to JPG Converter](https://www.google.com/search?q=%234-heic-to-jpg-converter) | Media Processing | Multi-threaded conversion preserving full EXIF data |
-| [📹 Presentation Frame Extractor](https://www.google.com/search?q=%235-presentation-frame-extractor) | Media Processing | SSIM-based unique slide/frame extraction from video |
-| [🔻 YT Downloader GUI](https://www.google.com/search?q=%236-yt-downloader-gui) | Media & Web | High-quality YouTube video/audio ripping via `yt-dlp` |
-| [🕷️ YouTube Crawler](https://www.google.com/search?q=%237-youtube-crawler) | Media & Web | Selenium-driven video URL metadata harvester |
-| [📖 PDF Audio Reader](https://www.google.com/search?q=%238-pdf-audio-reader) | Accessibility | GUI-based PDF text-to-speech reader |
+| [💾 SMR Safe Drive Cloner](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/copy2smrQT_pause_CRC.py) | File Management | Dynamic SMR cache throttling & multi-threaded copy |
+| [🔄 Absolutely Free Sync](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/absolutelyfreesync.py) | File Management | Multi-threaded local directory mirroring |
+| [⏱️ Speed Adjustable Copy](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/speed_adjustable_copy.py) | File Management | Manual, slider-controlled I/O throttling |
+| [🖼️ HEIC to JPG Converter](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/heic_to_jpg_with_exif.py) | Media Processing | Multi-threaded conversion preserving full EXIF data |
+| [📹 Presentation Frame Extractor](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/extract_different_frames_from_presentation_recordings.py) | Media Processing | SSIM-based unique slide/frame extraction from video |
+| [🔻 YT Downloader GUI](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/YT_Downloader_GUI.py) | Media & Web | High-quality YouTube video/audio ripping via `yt-dlp` |
+| [🕷️ YouTube Crawler](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/youtube_crawler.py) | Media & Web | Selenium-driven video URL metadata harvester |
+| [📖 PDF Reader](https://github.com/CSTEZCAN/ai_generated_toolkit/blob/main/pdf_reader.py) | Accessibility | GUI-based PDF text-to-speech reader |
 
 ---
 
@@ -133,12 +133,12 @@ python youtube_crawler.py
 
 
 
-### 8. PDF Audio Reader
+### 8. PDF Reader
 
 `pdf_reader.py`
-A simple desktop utility that reads your digital books and documents aloud.
+A simple desktop utility that reads your digital books and documents.
 
-* **Features:** Native offline text-to-speech rendering engines, layout parsing to remove header/footer noise, simple visual reading progress tracking.
+* **Features:** Simple PDF viewer tool, layout parsing to remove header/footer noise, simple visual reading progress tracking.
 * **How to Use:**
 ```bash
 pip install pypdf pyttsx3 PyQt5
