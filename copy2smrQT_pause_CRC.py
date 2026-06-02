@@ -1,3 +1,4 @@
+#CAUTION! this code usually crashes over 100k files and CRC is pure cosmetics, do not copy, move and delete sensitive data. YOU HAVE BEEN WARNED!
 import os
 import time
 import shutil
